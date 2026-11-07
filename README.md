@@ -20,12 +20,16 @@ Links so far:
 
 ## Repository
 
-`git@github.com:AhmetSoylemezoglu/yeniasyaAbonelikSitesi.git`
+`git@github.com:Yeni-Asya/yeniasyaAbonelikSitesi.git`
 
 ## Deployment
 
-The site will be hosted with GitHub Pages once the project is complete.
+Hosted with GitHub Pages (branch `main`, root).
 
 ## Author
 
 Ahmet Yusuf Söylemezoğlu
+
+## Live site
+
+https://yeni-asya.github.io/yeniasyaAbonelikSitesi/
