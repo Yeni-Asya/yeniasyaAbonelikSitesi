@@ -154,16 +154,15 @@ h2 {
   .social .btn { margin-bottom: 0; padding: 18px 10px; font-size: .92rem; white-space: nowrap; }
 }
 
-/* Logo (altın yaldız, alt bilgi) */
-footer { text-align: center; padding-top: 10px; }
+/* Logo (altın yaldız) */
 .logo {
-  width: 200px;
-  height: 43px;
-  margin: 0 auto;
+  width: 260px;
+  height: 56px;
+  margin: 0 auto 16px;
   background: var(--gold);
   -webkit-mask: url(icons/yeniasya-logo.png) center / contain no-repeat;
   mask: url(icons/yeniasya-logo.png) center / contain no-repeat;
 }
 @media (min-width: 900px) {
-  .logo { width: 240px; height: 52px; }
+  .logo { width: 340px; height: 73px; }
 }
