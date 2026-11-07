@@ -197,3 +197,7 @@ h2 {
   .contact li { border-bottom: 1px solid rgba(255,255,255,.08); }
   .contact li:last-child { border-bottom: 1px solid rgba(255,255,255,.08); }
 }
+.share { display: flex; flex-direction: column; align-items: center; }
+.share h2 { width: 100%; }
+.share img { margin: auto 0 0; }
+.share p { margin-bottom: auto; }
