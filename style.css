@@ -166,3 +166,34 @@ h2 {
 @media (min-width: 900px) {
   .logo { width: 340px; height: 73px; }
 }
+
+/* Alt bilgi: iletişim + karekod */
+.footer { display: block; }
+.contact ul { list-style: none; margin: 0; padding: 0; font-size: .85rem; line-height: 1.5; }
+.contact li { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,.08); }
+.contact li:last-child { border-bottom: 0; }
+.contact li span {
+  display: block;
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--gold-1);
+}
+.contact a { color: #fff; text-decoration: none; }
+.share { text-align: center; }
+.share img {
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  padding: 8px;
+  background: #fff;
+}
+.share p { font-size: .8rem; opacity: .8; margin: 12px 0 8px; }
+@media (min-width: 900px) {
+  .footer { display: grid; grid-template-columns: 2fr 1fr; gap: 28px; }
+  .contact ul { display: grid; grid-template-columns: 1fr 1fr; column-gap: 32px; font-size: .95rem; }
+  .contact li { border-bottom: 1px solid rgba(255,255,255,.08); }
+  .contact li:last-child { border-bottom: 1px solid rgba(255,255,255,.08); }
+}
